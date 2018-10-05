@@ -95,20 +95,23 @@ border-radius: 25px;
     border-radius: 25px;
     border: white 3px solid;
     position: relative;
+    height: 100%x;
+    width: 120%;
     h1{
-        font-size: 40px;
+        font-size: 24px;
     }
     p{
         font-size: 25px;
     }
-    .docteur2{
-        height: 50%;
-        width: 50%;
-        left: 390px; 
-        top: 50px;  
-        position: absolute;     
-    }
 }
+
+    .docteur2{
+        height: 15%;
+        width: 15%;  
+        margin: 0px;
+        padding: 0px; 
+    }
+
 
 .jumbotron2{
     height: 410px;
@@ -171,7 +174,7 @@ menu{
 
 .contact{
     display: flex;
-    margin: 150px 0px 0px 0px;
+    margin: 150px 0px 50px 0px;
 
 }
 
@@ -193,6 +196,8 @@ menu{
         }
     .photoindex2{
     opacity: 1;
+    margin: 0;
+    padding: 0;
     }
     .promotionsevenements{
     opacity: 0;
@@ -200,5 +205,14 @@ menu{
     }
     .promotionsevenements2{
     opacity: 1;
+    margin: 0;
+    padding:0;
+    }
+}
+
+@media all and (max-width: 767px){
+    .navbot{
+        display: none;
+        opacity: 0;
     }
 }
