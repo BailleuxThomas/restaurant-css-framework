@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.debug {
+  border: 3px solid blue;
+}
+
+body {
+  background: orange;
+  display: block;
+}
+
+header {
+  margin: 0px;
+}
+
+nav {
+  background: black;
+  width: 100%;
+  border: white solid 3px;
+  border-radius: 25px;
+}
+nav ul {
+  list-style-type: none;
+  font-size: 30px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+nav ul li li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+nav ul li li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.jumbotron {
+  background-color: black;
+  height: 300px;
+  margin: 150px 0px 0px 0px;
+  border: white 3px solid;
+  border-radius: 25px;
+}
+.jumbotron .docteur {
+  position: absolute;
+  top: -180px;
+  left: -150px;
+  transform: skewX(15deg);
+}
+
+@media screen and (max-width: 1400px) {
+  .docteur {
+    opacity: 0;
+    width: 30vh;
+    height: 30vh;
+  }
+
+  .jumbotron {
+    opacity: 0;
+    display: none;
+  }
+
+  .jumbotron3 {
+    opacity: 1;
+  }
+
+  .jumbotron2 {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .jumbotron3 {
+    opacity: 0;
+    display: none;
+  }
+}
+.jumbotron3 {
+  background: orange;
+  padding: 0;
+  margin: 0;
+  border-radius: 25px;
+  border: white 3px solid;
+  position: relative;
+}
+.jumbotron3 h1 {
+  font-size: 40px;
+}
+.jumbotron3 p {
+  font-size: 25px;
+}
+.jumbotron3 .docteur2 {
+  height: 50%;
+  width: 50%;
+  left: 390px;
+  top: 50px;
+  position: absolute;
+}
+
+.jumbotron2 {
+  height: 410px;
+  width: 600px;
+  background: orange;
+  float: right;
+  padding: 0;
+  margin: 0;
+  top: 170px;
+  right: 380px;
+  position: absolute;
+  border-radius: 25px;
+  border: white 3px solid;
+  transform: skewX(15deg);
+}
+.jumbotron2 h1 {
+  font-size: 40px;
+}
+.jumbotron2 p {
+  font-size: 25px;
+}
+
+main {
+  margin: 150px 0px 0px 0px;
+}
+
+section {
+  display: inline-block;
+  margin: 30px 0px 0px 15%;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.figurephotos {
+  margin: 190px 0px 0px 0px;
+  display: flex;
+}
+.figurephotos img {
+  width: 50vh;
+  height: 50vh;
+  margin: 0px 0px 50px 0px;
+}
+
+.switch {
+  display: flex;
+}
+
+.carte {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  line-height: 25pt;
+}
+
+.contact {
+  display: flex;
+  margin: 150px 0px 0px 0px;
+}
+
+@media all and (min-width: 1400px) {
+  .photoindex2 {
+    opacity: 0;
+    display: none;
+  }
+
+  .promotionsevenements2 {
+    opacity: 0;
+    display: none;
+  }
+}
+@media all and (max-width: 1400px) {
+  .photoindex {
+    opacity: 0;
+    display: none;
+  }
+
+  .photoindex2 {
+    opacity: 1;
+  }
+
+  .promotionsevenements {
+    opacity: 0;
+    display: none;
+  }
+
+  .promotionsevenements2 {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

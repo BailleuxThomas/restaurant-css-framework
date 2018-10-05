@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.debug{
+    border: 3px solid blue;
+}
+
+header{
+    display: flex;
+}
+.imgheader{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+body{
+    background: -webkit-linear-gradient(89deg, rgb(237, 140, 22), rgb(90, 20, 20));
+    background: linear-gradient(89deg, rgb(237, 140, 22), rgb(90, 20, 20));
+}
